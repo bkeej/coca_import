@@ -23,7 +23,7 @@ FILE="shared_files/sources/coca-sources.txt"
 
 echo "Processing $FILE..."
 echo ".separator \"\t\"
-.import $FILE source" > commands.txt
+.import $FILE sources" > commands.txt
 
 sqlite3 coca.db < commands.txt
 
